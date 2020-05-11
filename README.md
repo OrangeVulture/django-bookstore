@@ -6,3 +6,6 @@
 3. Activate virtual environment. E.g. `source venv/bin/activate` / for windows: venv\scripts\activate.bat
 4. Install required packages. 
 `pip install -r requirements.txt`
+
+5. To populate data
+`python manage.py loaddata db.json`
