@@ -1,12 +1,7 @@
 # Online Bookstore
-SUTD 50.008 Database Project
-
-## Project brief
-B&N is a large db-project and it has decided to go online. Your team has been called in to help B&N design and implement the prototype of its online shop.
 
 ## Setup
-1. Install pip (package management system)
-2. Install virtualenv to create isolated Python environment. `pip install virtualenv`.
-3. Create virtual environment in project folder. E.g. `virtualenv venv`
-4. Activate virtual environment. E.g. `source venv/bin/activate` / for windows: venv\scripts\activate.bat
-5. Install required packages. `pip install -r requirements.txt`
+1. Install virtualenv to create isolated Python environment. `pip install virtualenv`.
+2. Create virtual environment in project folder. E.g. `virtualenv venv`
+3. Activate virtual environment. E.g. `source venv/bin/activate` / for windows: venv\scripts\activate.bat
+4. Install required packages. `pip install -r requirements.txt`
