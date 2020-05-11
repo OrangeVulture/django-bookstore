@@ -31,7 +31,6 @@ ALLOWED_HOSTS = ['10.13.34.199', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    'polls.apps.PollsConfig',
     'bookstore.apps.BookstoreConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -77,11 +76,8 @@ WSGI_APPLICATION = 'db-project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_db',
-        'USER': 'root',
-        'PASSWORD': 'password',
-        'HOST': '127.0.0.1',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
